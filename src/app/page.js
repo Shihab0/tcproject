@@ -7,7 +7,7 @@ import ContactPage from "./contact/page";
 const HomePage = () => {
   return (
     <div>
-      <div className="flex h-screen flex-col gap-3 items-center md:flex-row md:justify-between md:items-center">
+      <div className="flex h-screen flex-col gap-8 md:gap-3 items-center md:flex-row md:justify-between md:items-center">
         <div className="flex md:flex-1 flex-col justify-center  md:gap-5 item-center">
           <h1
             className="bg-gradient-to-r p-4 mt-3 from-[#114] via-[#112] to-[#114] text-2xl md:text-4xl font-bold text-yellow-200 first-line:uppercase first-line:tracking-widest
@@ -23,7 +23,7 @@ const HomePage = () => {
           </p>{" "}
           <button
             type="button"
-            className="bg-[#112] uppercase md:w-72 py-3 md:px-1 outline md:text-xl rounded-xl font-semibold hover:bg-slate-700"
+            className="bg-[#112] uppercase w-64  mt-3 md:w-72 py-3 md:px-1 outline md:text-xl rounded-xl font-semibold hover:bg-slate-700"
           >
             <Link href="/contact">Contact for a teacher</Link>
           </button>
