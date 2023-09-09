@@ -26,7 +26,7 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between lg:px-6 h-16 border border-gray-500 rounded-lg">
+    <nav className="flex items-center justify-center md:justify-between lg:px-6 h-16 border border-gray-500 rounded-lg">
       <h1 className="md:font-semibold md:text-2xl text-center text-3xl">
         Teacher's Corner
       </h1>
