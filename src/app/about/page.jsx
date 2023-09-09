@@ -1,10 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import about from "../../../public/about.svg";
+import location from "../../../public/location.svg";
+import call from "../../../public/call.svg";
+import email from "../../../public/email.svg";
 
 const AboutPage = () => {
   return (
-    <div className="md:-mt-16">
+    <div className="">
       <div className="w-full  h-72 object-cover relative">
         <Image src={about} alt="" fill={true}></Image>
 
@@ -30,6 +33,30 @@ const AboutPage = () => {
             who provide tailored, one-on-one academic support in a wide range of
             subjects, helping students achieve their full potential.
           </p>
+        </div>
+      </div>
+      <div className="mt-12 bg-green-950 p-7 px-10 rounded-md flex justify-between">
+        <div className="flex items-center gap-2">
+          <Image width={50} src={location}></Image>
+          <div>
+            <h1 className="text-2xl font-bold">Address</h1>
+            <p>Gurudayal college mur, Harua.</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-3">
+          <Image width={50} src={email}></Image>
+          <div>
+            {" "}
+            <h1 className="text-2xl font-bold">Email</h1>
+            <p>teacherscorner@gmail.com</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-3">
+          <Image width={50} src={call}></Image>
+          <div>
+            <h1 className="text-2xl font-bold">Call Us</h1> <p>01729392839</p>
+          </div>
         </div>
       </div>
     </div>

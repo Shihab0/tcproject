@@ -15,6 +15,10 @@ const navItems = [
     title: "Dashboard",
   },
   {
+    path: "/explore",
+    title: "Explore us",
+  },
+  {
     path: "/contact",
     title: "Contact",
   },
