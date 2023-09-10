@@ -35,8 +35,8 @@ const AboutPage = () => {
           </p>
         </div>
       </div>
-      <div className="mt-12 bg-green-950 p-7 px-10 rounded-md flex justify-between">
-        <div className="flex items-center gap-2">
+      <div className="mt-12 bg-green-950 p-7 px-10 rounded-md flex flex-col md:flex-row justify-center gap-3 md:justify-between">
+        <div className="flex flex-col md:flex-row items-center gap-2">
           <Image width={50} src={location}></Image>
           <div>
             <h1 className="text-2xl font-bold">Address</h1>
@@ -44,7 +44,7 @@ const AboutPage = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex flex-col md:flex-row items-center gap-3">
           <Image width={50} src={email}></Image>
           <div>
             {" "}
@@ -52,7 +52,7 @@ const AboutPage = () => {
             <p>teacherscorner@gmail.com</p>
           </div>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex flex-col md:flex-row items-center gap-3">
           <Image width={50} src={call}></Image>
           <div>
             <h1 className="text-2xl font-bold">Call Us</h1> <p>01729392839</p>
