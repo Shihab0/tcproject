@@ -24,3 +24,24 @@
     transform: translateY(0px) scale(1.01);
   }
 }
+
+.bg-tutors {
+  background-image: url("./../../public/tutors.svg");
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+}
+.bg-progress {
+  background-image: url("./../../public/progress.svg");
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-rank {
+  background-image: url("./../../public/rank.svg");
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
